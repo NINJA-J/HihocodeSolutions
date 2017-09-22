@@ -9,6 +9,17 @@
 #ifndef Solution1331_h
 #define Solution1331_h
 
+#include <fstream>
+
+using namespace std;
+
+extern ifstream fin;
+
+//#1015 : KMP算法
+int indexOfMult( string &str, string &pattern );
+void solution1015();
+
+
 void solution1331();
 
 #endif /* Solution1331_h */

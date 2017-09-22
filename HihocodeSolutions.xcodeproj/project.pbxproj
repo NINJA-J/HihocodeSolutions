@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C95BB2711F75235900742D0A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95BB2701F75235900742D0A /* main.cpp */; };
 		C95BB27A1F75251300742D0A /* Solution1331.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95BB2791F75251300742D0A /* Solution1331.cpp */; };
+		C9D55A5F1F757E7500E3BC47 /* Solution1015.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D55A5E1F757E7500E3BC47 /* Solution1015.cpp */; };
+		C9D55A611F75811000E3BC47 /* Solutions.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D55A601F75805500E3BC47 /* Solutions.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +28,10 @@
 /* Begin PBXFileReference section */
 		C95BB26D1F75235600742D0A /* HihocodeSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HihocodeSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95BB2701F75235900742D0A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C95BB2781F7524C600742D0A /* Solution1331.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Solution1331.hpp; sourceTree = "<group>"; };
 		C95BB2791F75251300742D0A /* Solution1331.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1331.cpp; sourceTree = "<group>"; };
+		C9D55A5D1F755ED200E3BC47 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		C9D55A5E1F757E7500E3BC47 /* Solution1015.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1015.cpp; sourceTree = "<group>"; };
+		C9D55A601F75805500E3BC47 /* Solutions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Solutions.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 		C95BB26F1F75235600742D0A /* HihocodeSolutions */ = {
 			isa = PBXGroup;
 			children = (
-				C95BB2781F7524C600742D0A /* Solution1331.hpp */,
+				C9D55A601F75805500E3BC47 /* Solutions.hpp */,
 				C95BB2701F75235900742D0A /* main.cpp */,
 				C95BB2791F75251300742D0A /* Solution1331.cpp */,
+				C9D55A5D1F755ED200E3BC47 /* data.txt */,
+				C9D55A5E1F757E7500E3BC47 /* Solution1015.cpp */,
 			);
 			path = HihocodeSolutions;
 			sourceTree = "<group>";
@@ -124,8 +130,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D55A611F75811000E3BC47 /* Solutions.hpp in Sources */,
 				C95BB27A1F75251300742D0A /* Solution1331.cpp in Sources */,
 				C95BB2711F75235900742D0A /* main.cpp in Sources */,
+				C9D55A5F1F757E7500E3BC47 /* Solution1015.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +262,7 @@
 				C95BB2761F75235900742D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
