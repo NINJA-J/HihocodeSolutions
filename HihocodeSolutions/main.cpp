@@ -7,9 +7,9 @@
 //
 
 #include <iostream>
+#include "Solution1331.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    solution1331();
     return 0;
 }
