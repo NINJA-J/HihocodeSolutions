@@ -54,7 +54,7 @@
 
 using namespace std;
 
-ifstream fin("data.txt");
+//ifstream fin("data.txt");
 
 void solution1331(){
     int a0,a1,a2;

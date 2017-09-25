@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C950B93B1F7681AB00322FDE /* Solution2017ACM-I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C950B93A1F7681AB00322FDE /* Solution2017ACM-I.cpp */; };
+		C950B93D1F76822F00322FDE /* Solution2017ACM_G.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C950B93C1F76822F00322FDE /* Solution2017ACM_G.cpp */; };
 		C95BB2711F75235900742D0A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95BB2701F75235900742D0A /* main.cpp */; };
 		C95BB27A1F75251300742D0A /* Solution1331.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95BB2791F75251300742D0A /* Solution1331.cpp */; };
+		C96EAC661F764CFE00CE0B81 /* SolutionACM1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96EAC641F764CFE00CE0B81 /* SolutionACM1.cpp */; };
 		C9D55A5F1F757E7500E3BC47 /* Solution1015.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D55A5E1F757E7500E3BC47 /* Solution1015.cpp */; };
 		C9D55A611F75811000E3BC47 /* Solutions.hpp in Sources */ = {isa = PBXBuildFile; fileRef = C9D55A601F75805500E3BC47 /* Solutions.hpp */; };
 /* End PBXBuildFile section */
@@ -26,9 +29,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C950B93A1F7681AB00322FDE /* Solution2017ACM-I.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Solution2017ACM-I.cpp"; sourceTree = "<group>"; };
+		C950B93C1F76822F00322FDE /* Solution2017ACM_G.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solution2017ACM_G.cpp; sourceTree = "<group>"; };
 		C95BB26D1F75235600742D0A /* HihocodeSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HihocodeSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95BB2701F75235900742D0A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C95BB2791F75251300742D0A /* Solution1331.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1331.cpp; sourceTree = "<group>"; };
+		C96EAC641F764CFE00CE0B81 /* SolutionACM1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolutionACM1.cpp; sourceTree = "<group>"; };
 		C9D55A5D1F755ED200E3BC47 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 		C9D55A5E1F757E7500E3BC47 /* Solution1015.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solution1015.cpp; sourceTree = "<group>"; };
 		C9D55A601F75805500E3BC47 /* Solutions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Solutions.hpp; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				C95BB2791F75251300742D0A /* Solution1331.cpp */,
 				C9D55A5D1F755ED200E3BC47 /* data.txt */,
 				C9D55A5E1F757E7500E3BC47 /* Solution1015.cpp */,
+				C96EAC641F764CFE00CE0B81 /* SolutionACM1.cpp */,
+				C950B93C1F76822F00322FDE /* Solution2017ACM_G.cpp */,
+				C950B93A1F7681AB00322FDE /* Solution2017ACM-I.cpp */,
 			);
 			path = HihocodeSolutions;
 			sourceTree = "<group>";
@@ -132,7 +141,10 @@
 			files = (
 				C9D55A611F75811000E3BC47 /* Solutions.hpp in Sources */,
 				C95BB27A1F75251300742D0A /* Solution1331.cpp in Sources */,
+				C96EAC661F764CFE00CE0B81 /* SolutionACM1.cpp in Sources */,
 				C95BB2711F75235900742D0A /* main.cpp in Sources */,
+				C950B93D1F76822F00322FDE /* Solution2017ACM_G.cpp in Sources */,
+				C950B93B1F7681AB00322FDE /* Solution2017ACM-I.cpp in Sources */,
 				C9D55A5F1F757E7500E3BC47 /* Solution1015.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
